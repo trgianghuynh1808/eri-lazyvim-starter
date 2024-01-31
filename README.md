@@ -6,7 +6,7 @@
 * [Nerd Font](https://www.nerdfonts.com/font-downloads) >= 3.0
 * Telescope CMD: [Ripgrep](https://github.com/BurntSushi/ripgrep), [Fd](https://github.com/sharkdp/fd?tab=readme-ov-file#installation)
 
-## Install LazyVim with `eri-lazyvim-starter`
+## Install LazyVim with starter
 * Clone starter:  
   ```
   git clone https://github.com/trgianghuynh1808/eri-lazyvim-starter.git
