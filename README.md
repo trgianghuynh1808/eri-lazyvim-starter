@@ -20,7 +20,7 @@
   cd ~/.config/nvim && nvim
   ```
 ## Usage
-* After installing all plugins, we can start with `nvim`. We can check `KeyMap` section below for more instructions or Press `space` key to open the menu system.
+* After installing all plugins, we can check `KeyMap` section below for more instructions or Press `space` key to open the menu system.
 
 ## KeyMap
 * [Basic keymap](https://www.lazyvim.org/keymaps)
