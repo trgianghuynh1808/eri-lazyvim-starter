@@ -22,7 +22,7 @@ return {
     build = ":Copilot auth",
     opts = {
       suggestion = { enabled = true },
-      panel = { enabled = true },
+      panel = { enabled = true, layout = { position = "top" } },
       filetypes = {
         markdown = true,
         help = true,
