@@ -29,4 +29,11 @@ return {
       },
     },
   },
+
+  -- auto save
+  {
+    "Pocco81/auto-save.nvim",
+    otps = { trigger_events = { "InsertLeave" }, debounce_delay = 300 },
+    lazy = false,
+  },
 }
