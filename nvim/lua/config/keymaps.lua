@@ -20,6 +20,9 @@ keymap.set("n", "-", "<C-x>")
 -- select all
 keymap.set("n", "<C-a>", "gg<S-v>G")
 
+-- exit mode
+keymap.set("i", "jk", "<ESC>", opts)
+
 -- jumblist
 -- keymap.set("n", "<C-m>", "<C-i>", opts)
 
