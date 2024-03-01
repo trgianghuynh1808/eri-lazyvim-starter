@@ -11,6 +11,7 @@ return {
         "shfmt",
         "typescript-language-server",
         "css-lsp",
+        "vue-language-server"
       })
     end,
   },
