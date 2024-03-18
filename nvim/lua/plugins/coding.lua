@@ -16,17 +16,11 @@ return {
   },
 
   -- github copilot
-  {
-    "zbirenbaum/copilot.lua",
+ {
+    "github/copilot.vim",
     cmd = "Copilot",
-    build = ":Copilot auth",
-    opts = {
-      suggestion = { enabled = true },
-      panel = { enabled = true, layout = { position = "top" } },
-      filetypes = {
-        markdown = true,
-        help = true,
-      },
-    },
+    build = ":Copilot setup",
+    opts = nil,
+    lazy = false,
   },
 }
