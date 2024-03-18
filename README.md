@@ -40,7 +40,7 @@
 - [Coding Plugins](https://github.com/trgianghuynh1808/eri-lazyvim-starter/blob/master/nvim/lua/plugins/coding.lua):
   - Replace multiple: [smjonas/inc-rename.nvim](https://github.com/smjonas/inc-rename.nvim)
   - Comment code: [numToStr/Comment.nvim](https://github.com/numToStr/Comment.nvim)
-  - Github copilot: [zbirenbaum/copilot.lua](https://github.com/zbirenbaum/copilot.lua)
+  - Github copilot: [github/copilot.vim](https://github.com/github/copilot.vim)
   - Prevent spam Vim key: [craftzdog/cowboy](https://github.com/trgianghuynh1808/eri-lazyvim-starter/blob/master/nvim/lua/craftzdog/discipline.lua)
 - [Theme](https://github.com/trgianghuynh1808/eri-lazyvim-starter/blob/master/nvim/lua/plugins/colorscheme.lua)
   - Tokyo-night: [folke/tokyonight.nvim](https://github.com/folke/tokyonight.nvim)
