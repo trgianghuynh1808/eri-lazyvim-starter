@@ -55,3 +55,7 @@ keymap.set("n", "<leader>rn", ":IncRename ")
 keymap.set("n", "<C-j", function()
   vim.diagnostics.goto_next()
 end, opts)
+
+-- change keymap Github Copilot
+vim.g.copilot_no_tab_map = true
+vim.api.nvim_set_keymap("i", "<C-J>", 'copilot#Accept("<CR>")', { silent = true, expr = true })
