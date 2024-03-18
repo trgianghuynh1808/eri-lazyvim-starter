@@ -34,6 +34,7 @@
   - Replace multiple: `<leader>rn`
   - Switch tab: `<tab>`
   - Comment block code, use Visual mode: `gc` for likewise comment and `gb` for blockwise comment
+  - Accept Github Copilot suggest: `<C-j>`
 
 ## Plugins in Starter
 
