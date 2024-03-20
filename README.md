@@ -30,7 +30,7 @@
 
 - [Basic keymap](https://www.lazyvim.org/keymaps)
 - Customize keymap:
-  - Exit mode: `jk`
+  - Exit insert mode: `jk`
   - Replace multiple: `<leader>rn`
   - Switch tab: `<tab>`
   - Comment block code, use Visual mode: `gc` for likewise comment and `gb` for blockwise comment
