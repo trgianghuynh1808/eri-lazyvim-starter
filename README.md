@@ -1,5 +1,8 @@
 # eri-lazyvim-starter
 
+## Demo
+[![Watch the video](https://img.youtube.com/vi/e-IAmBHclGE/hqdefault.jpg)](https://www.youtube.com/watch?v=e-IAmBHclGE)
+
 ## Requirements
 
 - [NeoVim](https://neovim.io/) >= 0.9.0
