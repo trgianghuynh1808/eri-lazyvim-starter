@@ -46,6 +46,7 @@
   - Comment code: [numToStr/Comment.nvim](https://github.com/numToStr/Comment.nvim)
   - Github copilot: [github/copilot.vim](https://github.com/github/copilot.vim)
   - Prevent spam Vim key: [craftzdog/cowboy](https://github.com/trgianghuynh1808/eri-lazyvim-starter/blob/master/nvim/lua/craftzdog/discipline.lua)
+  - Multiple Visual: [mg979/vim-visual-multi](https://github.com/mg979/vim-visual-multi)
 - [Theme](https://github.com/trgianghuynh1808/eri-lazyvim-starter/blob/master/nvim/lua/plugins/colorscheme.lua)
   - Tokyo-night: [folke/tokyonight.nvim](https://github.com/folke/tokyonight.nvim)
 - [LSP server](https://github.com/trgianghuynh1808/eri-lazyvim-starter/blob/master/nvim/lua/plugins/lsp.lua)
