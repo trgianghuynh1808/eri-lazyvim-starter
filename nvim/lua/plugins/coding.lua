@@ -22,5 +22,10 @@ return {
     build = ":Copilot setup",
     opts = nil,
     lazy = false,
+ },
+
+  -- visual multi
+  {
+    "mg979/vim-visual-multi",
   },
 }
