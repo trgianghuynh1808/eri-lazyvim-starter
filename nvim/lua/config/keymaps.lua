@@ -59,3 +59,6 @@ end, opts)
 -- change keymap Github Copilot
 vim.g.copilot_no_tab_map = true
 vim.api.nvim_set_keymap("i", "<C-J>", 'copilot#Accept("<CR>")', { silent = true, expr = true })
+
+-- DBUI excute query
+vim.keymap.set("n", "<leader>de", ":normal vip<CR><PLUG>(DBUI_ExecuteQuery)", { desc = "Execute DB query" })
