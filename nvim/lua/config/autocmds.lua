@@ -15,3 +15,8 @@ vim.api.nvim_create_autocmd("FileType", {
     vim.opt.conceallevel = 0
   end,
 })
+
+-- file type for database completion
+vim.cmd(
+  [[au FileType sql,mysql,plsql lua require'cmp'.setup.buffer { sources = { { name = 'vim-dadbod-completion' } } }]]
+)
