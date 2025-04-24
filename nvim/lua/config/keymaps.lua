@@ -51,6 +51,9 @@ keymap.set("i", "jk", "<ESC>", opts)
 -- rename IncRename
 keymap.set("n", "<leader>rn", ":IncRename ")
 
+-- open LazyGit
+keymap.set("n", "<leader>gg", ":LazyGit<CR>")
+
 -- diagnostics
 keymap.set("n", "<C-j", function()
   vim.diagnostics.goto_next()

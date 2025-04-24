@@ -1,6 +1,7 @@
 # eri-lazyvim-starter
 
 ## Demo
+
 [![Watch the video](https://img.youtube.com/vi/e-IAmBHclGE/hqdefault.jpg)](https://www.youtube.com/watch?v=e-IAmBHclGE)
 
 ## Requirements
@@ -39,6 +40,7 @@
   - Comment block code, use Visual mode: `gc` for likewise comment and `gb` for blockwise comment
   - Accept Github Copilot suggest: `<C-j>`
   - Execute DB Query specific line: `<leader-de>`
+  - Open Lazygit: `<leader>gg`
 
 ## Plugins in Starter
 
@@ -62,6 +64,7 @@
   - DB Server: [vim-dadbod](https://github.com/tpope/vim-dadbod)
   - DB UI [vim-dadbod-ui](https://github.com/kristijanhusak/vim-dadbod-ui)
   - DB Completion [vim-dadbod-completion](https://github.com/kristijanhusak/vim-dadbod-completion)
+- Git Plugin: [lazygit](https://github.com/kdheepak/lazygit.nvim)
 
 ## References:
 
