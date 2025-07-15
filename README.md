@@ -58,13 +58,15 @@
   - Nvim Treesitter: [nvim-treesitter/nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
 - [UI Plugins](https://github.com/trgianghuynh1808/eri-lazyvim-starter/blob/master/nvim/lua/plugins/ui.lua)
   - Buffer Tab: [akinsho/bufferline.nvim](https://github.com/akinsho/bufferline.nvim)
-  - Dashboard UI: [nvimdev/dashboard-nvim](https://github.com/nvimdev/dashboard-nvim)  
+  - Dashboard UI: [nvimdev/dashboard-nvim](https://github.com/nvimdev/dashboard-nvim)
     P/s: can use [patorjk](https://patorjk.com/software/taag/#p=display&f=Graffiti&t=Type%20Something%20) to generate ASCI Code and update logo
 - DB Plugins:
   - DB Server: [vim-dadbod](https://github.com/tpope/vim-dadbod)
   - DB UI [vim-dadbod-ui](https://github.com/kristijanhusak/vim-dadbod-ui)
   - DB Completion [vim-dadbod-completion](https://github.com/kristijanhusak/vim-dadbod-completion)
 - Git Plugin: [lazygit](https://github.com/kdheepak/lazygit.nvim)
+- Hard Time (improve typing habit): [hardtime](https://github.com/m4xshen/hardtime.nvim)
+- Smear Cursor (animiation for cursor): [smear-cursor](https://github.com/sphamba/smear-cursor.nvim)
 
 ## References:
 

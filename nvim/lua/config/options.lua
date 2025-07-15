@@ -27,7 +27,7 @@ vim.opt.smarttab = true
 vim.opt.breakindent = true
 vim.opt.shiftwidth = 2
 vim.opt.tabstop = 2
-vim.opt.wrap = false -- No Wrap lines
+vim.opt.wrap = true -- No Wrap lines
 vim.opt.backspace = { "start", "eol", "indent" }
 vim.opt.path:append({ "**" }) -- Finding files - Search down into subfolders
 vim.opt.wildignore:append({ "*/node_modules/*" })
@@ -35,6 +35,9 @@ vim.opt.splitbelow = true -- Put new windows below current
 vim.opt.splitright = true -- Put new windows right of current
 vim.opt.splitkeep = "cursor"
 vim.opt.mouse = ""
+
+vim.opt.spelllang = "en_us"
+vim.opt.spell = true
 
 -- Undercurl
 vim.cmd([[let &t_Cs = "\e[4:3m"]])
@@ -49,3 +52,5 @@ vim.cmd([[au BufNewFile,BufRead Podfile setf ruby]])
 if vim.fn.has("nvim-0.8") == 1 then
   vim.opt.cmdheight = 0
 end
+
+vim.g.lazyvim_picker = "fzf"

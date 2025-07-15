@@ -15,6 +15,11 @@ return {
     lazy = false,
   },
 
+  -- visual multi
+  {
+    "mg979/vim-visual-multi",
+  },
+
   -- github copilot
   {
     "github/copilot.vim",
@@ -48,5 +53,19 @@ return {
     config = function()
       require("telescope").load_extension("lazygit")
     end,
+  },
+
+  --  plugin prevent bad habit
+  {
+    "m4xshen/hardtime.nvim",
+    lazy = false,
+    dependencies = { "MunifTanjim/nui.nvim" },
+    opts = {},
+  },
+
+  -- animation for cursor
+  {
+    "sphamba/smear-cursor.nvim",
+    opts = {},
   },
 }

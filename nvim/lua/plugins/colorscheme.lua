@@ -3,18 +3,18 @@ return {
     -- "folke/tokyonight.nvim",
     -- "haishanh/night-owl.vim",
     -- "EdenEast/nightfox.nvim",
-    -- "rebelot/kanagawa.nvim",
-    "projekt0n/github-nvim-theme",
-    name = "github-theme",
-    lazy = false, -- make sure we load this during startup if it is your main colorscheme
-    priority = 1000, -- make sure to load this before all the other start plugins
-    config = function()
-      require("github-theme").setup({
-        -- ...
-      })
-
-      vim.cmd("colorscheme github_dark")
-    end,
+    "rebelot/kanagawa.nvim",
+    --  "projekt0n/github-nvim-theme",
+    -- name = "github-theme",
+    -- lazy = false, -- make sure we load this during startup if it is your main colorscheme
+    -- priority = 1000, -- make sure to load this before all the other start plugins
+    -- config = function()
+    --   require("github-theme").setup({
+    --     -- ...
+    --   })
+    --
+    --   vim.cmd("colorscheme github_dark")
+    -- end,
   },
   {
     {
@@ -31,11 +31,11 @@ return {
         -- colorscheme = "terafox",
 
         -- kanagawa's schema
-        -- colorscheme = "kanagawa-wave",
+        colorscheme = "kanagawa-wave",
 
         -- github's schema
         -- colorscheme = "github_dark_default",
-        colorscheme = "github_dark_colorblind",
+        -- colorscheme = "github_dark_colorblind",
       },
     },
   },

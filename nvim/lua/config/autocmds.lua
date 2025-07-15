@@ -17,6 +17,19 @@ vim.api.nvim_create_autocmd("FileType", {
 })
 
 -- file type for database completion
-vim.cmd(
-  [[au FileType sql,mysql,plsql lua require'cmp'.setup.buffer { sources = { { name = 'vim-dadbod-completion' } } }]]
-)
+local autocomplete_group = vim.api.nvim_create_augroup("vimrc_autocompletion", { clear = true })
+
+local cmp = require("plugins.cmp")
+vim.api.nvim_create_autocmd("FileType", {
+  pattern = { "sql", "mysql", "plsql" },
+  callback = function()
+    cmp.setup.buffer({
+      sources = {
+        { name = "vim-dadbod-completion" },
+        { name = "buffer" },
+        { name = "luasnip" },
+      },
+    })
+  end,
+  group = autocomplete_group,
+})
