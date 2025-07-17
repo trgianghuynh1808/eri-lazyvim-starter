@@ -68,4 +68,10 @@ return {
     "sphamba/smear-cursor.nvim",
     opts = {},
   },
+
+  -- toggle relative number
+  {
+    "sitiom/nvim-numbertoggle",
+    opts = {},
+  },
 }
