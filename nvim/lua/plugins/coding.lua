@@ -65,6 +65,7 @@ return {
   -- animation for cursor
   {
     "sphamba/smear-cursor.nvim",
+    opts = {},
   },
 
   -- toggle relative number
