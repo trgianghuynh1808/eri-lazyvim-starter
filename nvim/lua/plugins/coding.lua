@@ -60,18 +60,15 @@ return {
     "m4xshen/hardtime.nvim",
     lazy = false,
     dependencies = { "MunifTanjim/nui.nvim" },
-    opts = {},
   },
 
   -- animation for cursor
   {
     "sphamba/smear-cursor.nvim",
-    opts = {},
   },
 
   -- toggle relative number
   {
     "sitiom/nvim-numbertoggle",
-    opts = {},
   },
 }
