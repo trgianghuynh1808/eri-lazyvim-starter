@@ -68,6 +68,7 @@
 - Hard Time (improve typing habit): [hardtime](https://github.com/m4xshen/hardtime.nvim)
 - Smear Cursor (animiation for cursor): [smear-cursor](https://github.com/sphamba/smear-cursor.nvim)
 - Toggle Relative Number: [sitiom/nvim-numbertoggle](https://github.com/sitiom/nvim-numbertoggle)
+- Flash Navigation: [folke/flash.nvim](https://github.com/folke/flash.nvim)
 
 ## References:
 
