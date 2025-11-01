@@ -21,18 +21,14 @@ return {
   },
 
   -- github copilot
-  {
-    "github/copilot.vim",
-    cmd = "Copilot",
-    build = ":Copilot setup",
-    opts = nil,
-    lazy = false,
-  },
-
-  -- visual multi
-  {
-    "mg979/vim-visual-multi",
-  },
+  -- {
+  --   "github/copilot.vim",
+  --   cmd = "Copilot",
+  --   build = ":Copilot setup",
+  --   opts = nil,
+  --   lazy = false,
+  -- },
+  --
 
   -- lazygit
   {
