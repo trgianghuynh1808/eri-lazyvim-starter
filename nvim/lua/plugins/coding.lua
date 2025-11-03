@@ -20,16 +20,6 @@ return {
     "mg979/vim-visual-multi",
   },
 
-  -- github copilot
-  -- {
-  --   "github/copilot.vim",
-  --   cmd = "Copilot",
-  --   build = ":Copilot setup",
-  --   opts = nil,
-  --   lazy = false,
-  -- },
-  --
-
   -- lazygit
   {
     "kdheepak/lazygit.nvim",
@@ -56,12 +46,6 @@ return {
     "m4xshen/hardtime.nvim",
     lazy = false,
     dependencies = { "MunifTanjim/nui.nvim" },
-  },
-
-  -- animation for cursor
-  {
-    "sphamba/smear-cursor.nvim",
-    opts = {},
   },
 
   -- toggle relative number

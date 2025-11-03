@@ -53,11 +53,5 @@ return {
 
     -- Set custom color for dashboard header (cyan/blue instead of red)
     vim.api.nvim_set_hl(0, "DashboardHeader", { fg = "#7aa2f7", bold = true }) -- blue color
-    -- Alternative colors you can try:
-    -- vim.api.nvim_set_hl(0, "DashboardHeader", { fg = "#9ece6a", bold = true }) -- green
-    -- vim.api.nvim_set_hl(0, "DashboardHeader", { fg = "#bb9af7", bold = true }) -- purple
-    -- vim.api.nvim_set_hl(0, "DashboardHeader", { fg = "#e0af68", bold = true }) -- yellow/orange
-    -- vim.api.nvim_set_hl(0, "DashboardHeader", { fg = "#c0caf5", bold = true }) -- light blue/white
   end,
 }
-

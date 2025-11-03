@@ -31,7 +31,7 @@ return {
         -- colorscheme = "terafox",
 
         -- kanagawa's schema
-        colorscheme = "kanagawa-wave",
+        colorscheme = "kanagawa-dragon",
 
         -- github's schema
         -- colorscheme = "github_dark_default",
