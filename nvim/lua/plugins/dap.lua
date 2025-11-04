@@ -32,7 +32,26 @@ return {
         handlers = {},
       })
 
-      dapui.setup()
+      dapui.setup({
+        layouts = {
+          {
+            elements = {
+              { id = "breakpoints", size = 0.20 },
+              { id = "scopes", size = 0.30 },
+              { id = "repl", size = 0.50 },
+            },
+            size = 50,
+            position = "left",
+          },
+          {
+            elements = {
+              { id = "console", size = 1.0 },
+            },
+            size = 10,
+            position = "bottom",
+          },
+        },
+      })
 
       -- Automatically open/close DAP UI
       dap.listeners.after.event_initialized["dapui_config"] = function()
