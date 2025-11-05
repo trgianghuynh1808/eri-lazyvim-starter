@@ -13,6 +13,9 @@ return {
         "scss",
         "sql",
         "lua",
+        "vue",
+        "javascript",
+        "typescript",
       },
 
       -- matchup = {
